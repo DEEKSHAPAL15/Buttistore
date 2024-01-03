@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: auto;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    position: sticky;
+}
+#nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(26,34,56);
+    padding-inline: 30px;
+}
+#nav ul {
+    width: 510px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+#nav a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+#nav ul li:first-child {
+    background-color: rgb(236, 168, 41);
+    color: white;
+    width: 70px;
+    height: 30px;
+    padding-left: 15px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+.hero-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+.left {
+    width: 70%;
+    padding-left: 50px;
+}
+.left img {
+    width: 1000px;
+    height: 500px;
+}
+.right {
+    width: 50%;
+}
+.right span {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.box1 {
+    width: 320px;
+    height: 230px;
+    background-image: url('./images/banner-side\ \(1\).png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+.right h3 {
+    font-size: 20px;
+    color: white;
+    padding-top: 170px;
+}
+.right p {
+    font-size: 20px;
+    color: orangered;
+    font-weight: 600;
+}
+.box2 {
+    width: 320px;
+    height: 230px;
+    background-image: url('./images/banner-side-1.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.customer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.customer h1{
+    margin-top: 100px;
+    color: rgb(26, 34, 56);
+}
+.customer span {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    color: rgb(26, 34, 56);
+    padding-inline: 30px;
+    margin-bottom: 100px;
+}
+.customer h3 {
+    font-size: 18px;
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(26, 34, 56);
+}
+.trending {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.trending .box {
+    width: 1230px;
+    height: 510px;
+    background-color: white;
+    /* border: 1px solid red; */
+    margin-inline: 100px;
+    margin-block: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.trending span {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box-a {
+    width: 245px;
+    height: 215px;
+    margin-top: 15px;
+    background-image: url('./images/lady.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.trending h3 {
+    margin-top: 20px;
+}
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box-b {
+    width: 245px;
+    height: 215px;
+    margin-top: 15px;
+    background-image: url('./images/couple.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.third {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box-c {
+    width: 245px;
+    height: 215px;
+    margin-top: 15px;
+    background-image: url('./images/marriage.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.product {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(248,248,251);
+}
+.product h3 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+.product h3 span {
+    color: orangered;
+}
+.boxes {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.boxes span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 40px;
+}
+.box01, .box02, .box03, .box04, .box05 {
+    width: 405px;
+    height: 440px;
+    border-radius: 15px;
+    background-color: white;
+    padding-left: 10px;
+}
+.award {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-block: 50px;
+}
+.boxi {
+    width: 1230px;
+    height: 450px;
+    border-radius: 15px;
+    background-image: url('./images/frame.png');
+    background-position: center;
+    background-size: cover;
+}
+.only {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 0 0 5px rgba(181, 178, 178, 0.116);
+    margin-bottom: 15px;
+    margin-bottom: 60px;
+}
+.only span {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-inline: 430px;
+}
+.only img:first-child {
+    width: 150px;
+    height: 80px;
+}
+.only img:nth-child(2) {
+    width: 250px;
+}
+.only img:last-child {
+    width: 120px;
+}
+.follow {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(248,248,251);
+}
+.follow h1 {
+    margin-top: 60px;
+}
+.follow p {
+    margin-top: 20px;
+    color: rgb(150, 146, 146);
+}
+#follow-main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 350px;
+}
+.follow span {
+    width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.follow img {
+    width: 80px;
+}
+.follow h4 {
+    font-size: 35px;
+    margin-top: 200px;
+}
+#down {
+    width: 200px;
+    margin-top: 40px;
+}.follow button {
+    width: 180px;
+    height: 35px;
+    border: 2px solid orangered;
+    color: orangered;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background: transparent;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
